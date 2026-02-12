@@ -5,8 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GeyserMC Model Mapping Merger</title>
     <link rel="stylesheet" href="styles.css">
+
+    <!-- Added subtle personality without affecting logic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+    <meta name="theme-color" content="#1a1a1a">
 </head>
+
 <body>
+
+    <!-- Decorative ambient background elements (purely visual) -->
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+
     <div class="loading-overlay" id="loadingOverlay">
         <div class="spinner"></div>
         <div class="loading-text">Processing...</div>
@@ -16,8 +28,13 @@
     
     <div class="container">
         <header>
-            <h1>GeyserMC Model Mapping Merger</h1>
-            <p class="subtitle">Merge and sort GeyserMC custom model data mappings with advanced analysis</p>
+            <div class="header-content">
+                <h1>GeyserMC Model Mapping Merger</h1>
+                <p class="subtitle">
+                    Merge and sort GeyserMC custom model data mappings with advanced analysis
+                </p>
+                <div class="header-divider"></div>
+            </div>
         </header>
         
         <section class="upload-section">
@@ -105,6 +122,10 @@
             </div>
         </section>
     </div>
+
+    <footer class="app-footer">
+        <p>Built for GeyserMC • Custom Model Mapping Utility</p>
+    </footer>
 
     <script src="script.js"></script>
 </body>
