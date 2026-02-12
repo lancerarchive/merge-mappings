@@ -20,13 +20,15 @@
 }
 
 body {
-    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-    background-color: var(--bg-primary);
+    font-family: 'Inter', system-ui, sans-serif;
+    background:
+        radial-gradient(circle at 10% 20%, rgba(74,158,255,0.15), transparent 40%),
+        radial-gradient(circle at 90% 80%, rgba(155,89,182,0.15), transparent 40%),
+        #0f1117;
     color: var(--text-primary);
     line-height: 1.6;
-    padding: 20px;
+    padding: 40px 20px;
     min-height: 100vh;
-    overflow-x: hidden;
 }
 
 /* Animated gradient background */
