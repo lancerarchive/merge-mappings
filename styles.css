@@ -544,7 +544,7 @@ h1 {
 @media (max-width: 768px) {
     .upload-section {
         grid-template-columns: 1fr;
-    }
+    } 
     
     .controls-grid {
         grid-template-columns: 1fr;
