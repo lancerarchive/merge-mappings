@@ -1,6 +1,6 @@
 ### README.md
 
-# GeyserMerger
+# GeyserMapping Merger
 
 ### Advanced Custom Model Data Synthesis for GeyserMC
 
